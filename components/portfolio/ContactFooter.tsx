@@ -55,7 +55,7 @@ export function ContactFooter() {
         <p className="mt-12 font-mono text-[10px] uppercase tracking-widest text-text-muted">
           © {new Date().getFullYear()} {name}. Built with Next.js.
         </p>
-        <p className="mt-2 font-mono text-[10px] text-text-muted/70">
+        <p className="mt-2 font-mono text-[10px] text-text-muted">
           Yes, this site was absolutely influenced by Project Hail Mary. Amaze.
         </p>
       </div>
