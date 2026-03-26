@@ -55,13 +55,13 @@ export function Hero() {
               {contact.linkedin.label}
             </a>
           </div>
-          <p className="mt-6 font-mono text-[10px] leading-relaxed text-text-muted/80">
+          <p className="mt-6 font-mono text-[10px] leading-relaxed text-text-muted">
             I like direct questions, clear requirements, and leaving systems
             easier to operate than I found them.
           </p>
         </div>
         <ChecksumDecoder
-          className="mt-8 font-mono text-[10px] text-text-muted/80 transition-colors hover:text-nebula-teal/85 focus-visible:outline-offset-4"
+          className="mt-8 font-mono text-[10px] text-text-muted transition-colors hover:text-nebula-teal focus-visible:outline-offset-4"
           defaultIndex={0}
         />
       </div>

@@ -30,7 +30,7 @@ export function StatusPage({ codeLabel, title, quip, actions }: StatusPageProps)
           <div className="mt-10 flex flex-wrap items-center justify-center gap-3">{actions}</div>
         ) : null}
         <ChecksumDecoder
-          className="mt-14 font-mono text-[10px] text-text-muted/70 transition-colors hover:text-nebula-teal/85 focus-visible:outline-offset-4"
+          className="mt-14 font-mono text-[10px] text-text-muted transition-colors hover:text-nebula-teal focus-visible:outline-offset-4"
           defaultIndex={0}
         />
       </main>
