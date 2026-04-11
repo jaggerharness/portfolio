@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 import { KonamiEasterEgg } from "@/components/portfolio/KonamiEasterEgg";
 import { rootFontClassName } from "@/lib/fonts";
@@ -35,6 +36,7 @@ export default function RootLayout({
         {children}
         <KonamiEasterEgg />
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
